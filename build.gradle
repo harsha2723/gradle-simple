@@ -4,7 +4,7 @@ apply plugin: 'maven-publish'
 group = 'com.github.jitpack'
 version = '2.0'
 
-sourceCompatibility = 1.8 // java 8
+sourceCompatibility = 1.8 // java 11
 targetCompatibility = 1.8
 
 repositories {
@@ -29,6 +29,6 @@ publishing {
 }
 
 wrapper {
-    gradleVersion = "7.3.3"
+    gradleVersion = "7.6"
     distributionType = Wrapper.DistributionType.ALL
 }
